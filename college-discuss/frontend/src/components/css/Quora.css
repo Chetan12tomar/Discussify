@@ -1,0 +1,37 @@
+.quora {
+  width: "100%";
+  min-width: fit-content;
+  /* background-color: rgb(128, 232, 227); */
+  background-color: #38d39f;
+  background-image: url("https://www.google.com/search?q=background+image+whatsapp&rlz=1C1CHBF_enIN945IN945&sxsrf=ALiCzsZw_rIak2daPhFS-WzDtlFh89uV1A:1656996291850&tbm=isch&source=iu&ictx=1&vet=1&fir=6QT8Zhf3SvZJYM%252CjCDbq-6E8HZIeM%252C_%253BNCH8sEfbYUHvCM%252CguJtMa_PC4JKnM%252C_%253B5gTGyd12cwePvM%252CMgUzimbHdrkQ8M%252C_%253BeQ9INy-h0gnNkM%252CRyE8Q4NFQa-4iM%252C_%253BU4-7FCCyED3ZFM%252CnW8XbUgxdq21nM%252C_%253BZyE0OSU5-A6PLM%252C6ee_OJMo9AIw9M%252C_%253B2WoFdilQ-rAO_M%252CMgUzimbHdrkQ8M%252C_%253Bzx3NzegRSqChYM%252CnW8XbUgxdq21nM%252C_%253BjaMMzUkYCvzDiM%252CjCDbq-6E8HZIeM%252C_%253BQn-oPC8jpXxhHM%252C6GBACfxWIIF1vM%252C_%253BZl5V0krplHHsFM%252CLKFxdFXUAogLiM%252C_%253BLq-rfg1F091aSM%252CJYtQupLUMwjV7M%252C_%253BL7hAA8YqHeK1cM%252CtYGr-IgG1oFB_M%252C_%253BpowJl1VR1i4tZM%252CnW8XbUgxdq21nM%252C_%253BMbOQ2eplQ8cJyM%252CVnn3GgwyPVyRDM%252C_%253BPm4AF7oJuA09fM%252CvCXehd-YUuju0M%252C_%253BU7S6KgGOdpafhM%252CjCDbq-6E8HZIeM%252C_%253BKaMYICdgk7GEUM%252CZDHl7SCKKLSI4M%252C_%253B4URXrNDr4kCFQM%252CcJChnC7dh_J5IM%252C_%253BoC3c6RQtoXPImM%252CjCDbq-6E8HZIeM%252C_&usg=AI4_-kRBCj_9ITErdQHZhzgRqEpj4pm_yQ&sa=X&ved=2ahUKEwjIpvqa-OD4AhUa6XMBHTOtBU0Q9QF6BAgREAE#imgrc=zx3NzegRSqChYM");
+}
+
+.quora__contents {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  min-width: fit-content;
+  width: 100%;
+}
+
+.quora__content {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.react-responsive-modal-modal {
+  width: 90vw;
+  height: 90vh;
+}
+
+.quill {
+  height: 50vh;
+}
+
+.react-responsive-modal-overlay {
+  background: rgb(0 0 0 / 75%);
+}

@@ -1,0 +1,67 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.wave{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}
+
+.img img{
+	width: 500px;
+}
+.img{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.login-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* align-content: space-between; */
+  /* display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center; */
+}
+
+.login-content img{
+  height: 70vh;
+}
+
+.login-content > img {
+  width: 200px;
+  object-fit: contain;
+  margin: 20px;
+}
+
+.login-content > button {
+  display: block;
+	width: 80%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+
+button:hover{
+	background-position: right;
+}
